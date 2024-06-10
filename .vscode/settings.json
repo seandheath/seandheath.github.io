@@ -1,0 +1,19 @@
+{
+    "pasteImage.path": "${projectRoot}/static",
+    "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+    "pasteImage.defaultName": "YMMDDHHmmss",
+    "markdown.copyFiles.destination": {
+        "**/*": "/static/"
+    },
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "posts",
+            "path": "[[workspace]]/content/posts"
+        }
+    ],
+    "frontMatter.git.enabled": true
+}
