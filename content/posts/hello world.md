@@ -1,3 +1,3 @@
 hello world, new blog post!
 
-![](d2ada5a69c65dbbb4be082750f0cf4a1.png)
+![](static/2006ecdbd90aa24f089c5e2150e2f337.png)
