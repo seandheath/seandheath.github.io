@@ -1,3 +1,3 @@
 hello world, new blog post!
 
-![Pasted image 20240610081300.png]({{< ref "Pasted image 20240610081300.png" >}})
+![](d2ada5a69c65dbbb4be082750f0cf4a1.png)
