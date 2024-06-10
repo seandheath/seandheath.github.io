@@ -15,5 +15,6 @@
             "path": "[[workspace]]/content/posts"
         }
     ],
-    "frontMatter.git.enabled": true
+    "frontMatter.git.enabled": true,
+    "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](/${imageFileName})"
 }
