@@ -1,5 +1,0 @@
-baseURL = 'https://seandheath.com/'
-languageCode = 'en-us'
-title = 'Sean Heath'
-theme = 'PaperMod'
-publishDir = 'docs'
