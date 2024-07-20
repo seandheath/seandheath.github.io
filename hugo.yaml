@@ -1,4 +1,4 @@
-baseURL: "https://seandheath.com"
+baseURL: "https://seandheath.com/"
 languageCode: en-us
 publishDir: docs
 title: Sean Heath
