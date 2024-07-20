@@ -13,8 +13,8 @@
       <link>https://seandheath.com/posts/vscode-devcontainer-rootless-podman/</link>
       <pubDate>Sat, 20 Jul 2024 17:51:11 -0400</pubDate>
       <guid>https://seandheath.com/posts/vscode-devcontainer-rootless-podman/</guid>
-      <description>VSCode DevContainers with Rootless Podman on Fedora Linux I recently spent some time getting VSCode DevContainers working with rootless Podman. I&amp;rsquo;m not going to go through the process of getting Podman installed and configured on your system, or installing VSCode and the DevContainers extension. The key issues are in the devcontainer.json which requires some hoop-jumping to get the settings to match up right, resulting in the configuration here:
-// devcontainer.json .</description>
+      <description>I recently spent some time getting VSCode DevContainers working with rootless Podman. I&amp;rsquo;m not going to go through the process of getting Podman installed and configured on your system, or installing VSCode and the DevContainers extension. The key issues are in the devcontainer.json which requires some hoop-jumping to get the settings to match up right, resulting in the configuration here:
+// devcontainer.json ... &amp;#34;remoteUser&amp;#34;: &amp;#34;vscode&amp;#34;, &amp;#34;workspaceMount&amp;#34;:&amp;#34;&amp;#34;, // fixed below in the --volume argument - enables rootless podman &amp;#34;runArgs&amp;#34;: [ &amp;#34;--userns=keep-id&amp;#34;, // retain the user GID/PID &amp;#34;--memory=0&amp;#34;, // optional, but I found issues with running out of heap memory while building the container &amp;#34;--cpus=0&amp;#34;, // optional, but will enable the container access to all your cores &amp;#34;--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}:Z&amp;#34; // explicitly mount the workspace folder ], &amp;#34;containerEnv&amp;#34;: { &amp;#34;HOME&amp;#34;: &amp;#34;/home/vscode&amp;#34; } I also edited my VSCode settings.</description>
     </item>
   </channel>
 </rss>
