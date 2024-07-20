@@ -4,7 +4,6 @@ date = 2024-07-20T17:51:11-04:00
 draft = false
 +++
 
-# VSCode DevContainers with Rootless Podman on Fedora Linux
 I recently spent some time getting VSCode DevContainers working with rootless Podman. I'm not going to go through the process of getting Podman installed and configured on your system, or installing VSCode and the DevContainers extension. The key issues are in the `devcontainer.json` which requires some hoop-jumping to get the settings to match up right, resulting in the configuration here:
 
 ```json
