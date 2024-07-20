@@ -21,7 +21,7 @@
         "commands": [
             {
                 "match": ".*",
-                "cmd": "rm -rf data;hugo"
+                "cmd": "rm -rf docs;hugo"
             }
         ]
     }
