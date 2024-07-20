@@ -28,8 +28,8 @@
                 "cmd": "hugo"
             },
             {
-                "match": "\\.md$",
-                "cmd": "echo seandheath.com > docs/CNAME"
+                "match":"\\.md$",
+                "cmd": "echo 'seandheath.com' > docs/CNAME"
             }
         ]
     }
