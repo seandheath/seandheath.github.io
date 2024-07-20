@@ -1,6 +1,6 @@
 +++
-title = 'Vscode DevContainer Rootless Podman'
-date = 2024-07-20T17:34:35-04:00
+title = 'Vscode DevContainers with Rootless Podman'
+date = 2024-07-20T17:51:11-04:00
 draft = false
 +++
 

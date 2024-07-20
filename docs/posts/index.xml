@@ -6,12 +6,12 @@
     <description>Recent content in Posts on Sean Heath</description>
     <generator>Hugo -- 0.121.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jul 2024 17:34:35 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 17:51:11 -0400</lastBuildDate>
     <atom:link href="https://seandheath.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Vscode DevContainer Rootless Podman</title>
+      <title>Vscode DevContainers with Rootless Podman</title>
       <link>https://seandheath.com/posts/vscode-devcontainer-rootless-podman/</link>
-      <pubDate>Sat, 20 Jul 2024 17:34:35 -0400</pubDate>
+      <pubDate>Sat, 20 Jul 2024 17:51:11 -0400</pubDate>
       <guid>https://seandheath.com/posts/vscode-devcontainer-rootless-podman/</guid>
       <description>VSCode DevContainers with Rootless Podman on Fedora Linux I recently spent some time getting VSCode DevContainers working with rootless Podman. I&amp;rsquo;m not going to go through the process of getting Podman installed and configured on your system, or installing VSCode and the DevContainers extension. The key issues are in the devcontainer.json which requires some hoop-jumping to get the settings to match up right, resulting in the configuration here:
 // devcontainer.json .</description>
