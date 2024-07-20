@@ -20,8 +20,12 @@
     "emeraldwalk.runonsave": {
         "commands": [
             {
-                "match": ".*",
-                "cmd": "rm -rf docs;hugo"
+                "match": "\\.md$",
+                "cmd": "rm -rf docs"
+            },
+            {
+                "match": "\\.md$",
+                "cmd": "hugo"
             }
         ]
     }
