@@ -16,5 +16,13 @@
         }
     ],
     "frontMatter.git.enabled": true,
-    "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](/${imageFileName})"
+    "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](/${imageFileName})",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "rm -rf data;hugo"
+            }
+        ]
+    }
 }
